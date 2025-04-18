@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEXT PLAY IPTV</title>
+  <style>
+    :root {
+      --primary-color: #00f7ff;
+      --bg-dark: #000018;
+      --bg-mid: #0f0f2e;
+      --highlight-bg: #00f7ff22;
+      --shadow: 0 0 15px #00f7ff33;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, var(--bg-dark), #1a1a3c);
+      color: #ffffff;
+      padding: 0;
+    }
+
+    header {
+      background-color: var(--bg-mid);
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      color: var(--primary-color);
+      margin: 0;
+    }
+
+    .content {
+      padding: 20px;
+      max-width: 100%;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: var(--primary-color);
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: var(--primary-color);
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .highlight {
+      background-color: var(--highlight-bg);
+      padding: 16px;
+      border-radius: 12px;
+      margin: 20px 0;
+      box-shadow: var(--shadow);
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+
+    ul li::before {
+      content: '✅';
+      margin-right: 10px;
+      color: var(--primary-color);
+    }
+
+    .video {
+      margin: 20px 0;
+      border: 2px solid var(--primary-color);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 15px #00f7ff44;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .button-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      margin-top: 30px;
+    }
+
+    .btn-whats {
+      background: linear-gradient(135deg, #25D366, #1ebe5d);
+      color: white;
+      padding: 14px 22px;
+      font-size: 1.1rem;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: 0.3s ease;
+      box-shadow: 0 0 12px #25d36680;
+      text-align: center;
+      width: 90%;
+      max-width: 320px;
+    }
+
+    .btn-whats:hover {
+      box-shadow: 0 0 25px #25d366cc;
+      transform: scale(1.03);
+    }
+
+    footer {
+      background-color: #0b0b1f;
+      color: #aaa;
+      padding: 20px;
+      font-size: 0.9rem;
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    /* Botão flutuante (opcional) */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      font-size: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      z-index: 999;
+      text-decoration: none;
+    }
+
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+      h2 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>NEXT PLAY IPTV</h1>
+  </header>
+
+  <div class="content">
+    <h1>🎬 NEXT PLAY IPTV</h1>
+
+    <div class="highlight">
+      <ul>
+        <li>Todos os canais abertos e fechados</li>
+        <li>Filmes, séries e novelas atualizados toda semana</li>
+        <li>Funciona em Smart TV, TV Box, Celular, Computador e mais</li>
+        <li>Você informa o seu aparelho e nós indicamos o app ideal</li>
+        <li>Teste grátis de 3 a 6 horas</li>
+        <li>Se gostar, só pagar R$15 e ativamos por 30 dias</li>
+      </ul>
+    </div>
+
+    <div class="video">
+      <video autoplay loop controls playsinline>
+        <source src="iptv.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo HTML5.
+      </video>
+    </div>
+
+    <div class="button-group">
+      <a class="btn-whats" href="https://wa.me/5551980323797?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20TESTE%20de%204%20HORAS." target="_blank">
+        🧪 TESTE 4 HORAS
+      </a>
+      <a class="btn-whats" href="https://wa.me/5551980323797?text=Ol%C3%A1!%20Tenho%20interesse%20no%20PLANO%20MENSAL." target="_blank">
+        📅 PLANO MENSAL
+      </a>
+    </div>
+
+    <h2>📺 Como Usar</h2>
+    <div class="video">
+      <video controls playsinline>
+        <source src="como-usar.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo HTML5.
+      </video>
+    </div>
+  </div>
+
+  <footer>
+    NEXT PLAY IPTV &copy; 2025 • Entretenimento sem Limites na Sua Tela
+  </footer>
+
+  <!-- Botão flutuante (opcional) -->
+  <a href="https://wa.me/5551980323797?text=Ol%C3%A1!%20Quero%20mais%20informações%20sobre%20o%20IPTV" 
+     class="whatsapp-float" 
+     target="_blank">💬</a>
+</body>
+</html>
